@@ -2,15 +2,15 @@ import resume from "../assets/resume.pdf";
 
 function HeroButtons() {
   return (
-    <div style={{ marginTop: "30px" }}>
+    <div style={{ marginTop: "20px" }}>
       <a href={resume} download>
         <button
           style={{
-            padding: "12px 25px",
+            padding: "14px 28px",
             background: "#2563eb",
             color: "white",
             border: "none",
-            borderRadius: "8px",
+            borderRadius: "12px",
             cursor: "pointer",
             marginRight: "15px",
             fontSize: "16px",
@@ -22,11 +22,11 @@ function HeroButtons() {
 
       <button
         style={{
-          padding: "12px 25px",
+          padding: "14px 28px",
           background: "#16a34a",
           color: "white",
           border: "none",
-          borderRadius: "8px",
+          borderRadius: "12px",
           cursor: "pointer",
           fontSize: "16px",
         }}

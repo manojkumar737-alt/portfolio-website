@@ -36,7 +36,7 @@ function Navbar() {
         </a>
 
         <a
-          href="YOUR_LINKEDIN_URL"
+          href="https://www.linkedin.com/in/manojkumar030592/"
           target="_blank"
           rel="noreferrer"
         >
