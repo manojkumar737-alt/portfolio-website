@@ -4,7 +4,7 @@ import HeroButtons from "./HeroButtons";
 
 function Hero() {
   return (
-    <section className="hero" id="hero">
+    <section className="hero" id="home">
 
       <div className="hero-left">
 
