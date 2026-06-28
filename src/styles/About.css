@@ -1,6 +1,6 @@
 .about{
 
-    padding:100px 80px;
+    padding:80px 60px;
 
     background:#f8fafc;
 
@@ -14,7 +14,7 @@
 
     color:#0f172a;
 
-    margin-bottom:30px;
+    margin-bottom:10px;
 
 }
 
@@ -34,13 +34,13 @@
 
 .about-grid{
 
-    margin-top:70px;
+    margin-top:20px;
 
     display:grid;
 
     grid-template-columns:repeat(4,1fr);
 
-    gap:30px;
+    gap:20px;
 
 }
 
@@ -50,9 +50,9 @@
 
     border-radius:20px;
 
-    padding:35px;
+    padding:20px;
 
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
 
     transition:.3s;
 

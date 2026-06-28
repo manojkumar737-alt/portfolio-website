@@ -13,14 +13,12 @@ function About() {
         Automation and Enterprise Production Support.
 
         <br /><br />
-
         I specialize in designing, automating and managing highly available,
         secure and scalable cloud platforms using <strong>Microsoft Azure,
         Kubernetes, Terraform, GitHub Actions, Azure DevOps, Docker,
         Rancher, Prometheus, Grafana and CI/CD pipelines.</strong>
 
         <br /><br />
-
         I have successfully delivered enterprise solutions across Banking,
         Financial Services and Telecom domains while improving reliability,
         monitoring, automation and deployment efficiency.
