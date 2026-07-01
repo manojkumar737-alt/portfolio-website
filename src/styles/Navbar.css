@@ -1,40 +1,144 @@
+/* ==========================================
+   NAVBAR
+========================================== */
+
 .navbar{
 
-display:flex;
+    position:fixed;
 
-justify-content:space-between;
+    top:0;
 
-align-items:center;
+    left:0;
 
-padding:18px 60px;
+    width:100%;
 
-background:#0f172a;
+    display:flex;
 
-position:sticky;
+    justify-content:space-between;
 
-top:0;
+    align-items:center;
 
-z-index:1000;
+    padding:18px 8%;
+
+    background:rgba(7,17,31,.85);
+
+    backdrop-filter:blur(15px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    z-index:999;
 
 }
+
+/* ==========================
+   LOGO
+========================== */
+
+/* ==========================
+   LOGO
+========================== */
 
 .logo{
 
-font-size:28px;
+display:flex;
 
-font-weight:bold;
+align-items:center;
+
+gap:15px;
+
+cursor:pointer;
+
+}
+
+.logo-circle{
+
+width:55px;
+
+height:55px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-radius:50%;
+
+background:linear-gradient(
+135deg,
+#2563eb,
+#06b6d4
+);
 
 color:white;
 
+font-size:22px;
+
+font-weight:700;
+
+box-shadow:0 10px 25px rgba(37,99,235,.35);
+
+transition:.35s;
+
 }
+
+.logo-circle:hover{
+
+transform:scale(1.08) rotate(10deg);
+
+}
+
+.logo-text{
+
+display:flex;
+
+flex-direction:column;
+
+}
+
+.logo-text h3{
+
+font-size:22px;
+
+font-weight:700;
+
+color:white;
+
+margin:0;
+
+line-height:1.2;
+
+}
+
+.logo-text p{
+
+font-size:13px;
+
+color:#94a3b8;
+
+margin-top:3px;
+
+}
+
+/* ==========================
+   NAVIGATION
+========================== */
 
 .nav-links{
 
 display:flex;
 
+align-items:center;
+
+gap:35px;
+
 list-style:none;
 
-gap:30px;
+}
+
+.nav-links li{
+
+position:relative;
 
 }
 
@@ -44,7 +148,33 @@ color:white;
 
 text-decoration:none;
 
-font-size:18px;
+font-size:17px;
+
+font-weight:500;
+
+transition:.3s;
+
+padding-bottom:5px;
+
+}
+
+/* Underline Animation */
+
+.nav-links a::after{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+bottom:0;
+
+width:0;
+
+height:2px;
+
+background:#3b82f6;
 
 transition:.3s;
 
@@ -52,30 +182,140 @@ transition:.3s;
 
 .nav-links a:hover{
 
-color:#3b82f6;
+color:#60a5fa;
 
 }
 
-.social-icons{
+.nav-links a:hover::after{
+
+width:100%;
+
+}
+
+/* ==========================
+   RIGHT SECTION
+========================== */
+
+.nav-right{
 
 display:flex;
 
-gap:20px;
+align-items:center;
 
-font-size:26px;
+gap:20px;
 
 }
 
-.social-icons a{
+.nav-right a{
 
 color:white;
 
+font-size:22px;
+
 transition:.3s;
+
+text-decoration:none;
 
 }
 
-.social-icons a:hover{
+.nav-right a:hover{
 
 color:#3b82f6;
+
+transform:translateY(-3px);
+
+}
+
+/* ==========================
+   RESUME BUTTON
+========================== */
+
+.resume-nav-btn{
+
+padding:10px 22px;
+
+border-radius:50px;
+
+background:linear-gradient(
+135deg,
+#2563eb,
+#1d4ed8
+);
+
+color:white !important;
+
+font-size:15px !important;
+
+font-weight:600;
+
+box-shadow:0 12px 30px rgba(37,99,235,.35);
+
+}
+
+.resume-nav-btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 18px 35px rgba(37,99,235,.45);
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+.navbar{
+
+padding:15px 20px;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+.logo span{
+
+width:48px;
+
+height:48px;
+
+font-size:20px;
+
+}
+
+.resume-nav-btn{
+
+padding:8px 18px;
+
+font-size:14px !important;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.nav-right{
+
+gap:12px;
+
+}
+
+.nav-right a{
+
+font-size:20px;
+
+}
+
+.resume-nav-btn{
+
+display:none;
+
+}
 
 }

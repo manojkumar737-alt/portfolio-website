@@ -67,7 +67,7 @@ function Experience() {
             <h4>IBM (via Netconnect)</h4>
             <span>Jan 2016 - Jul 2017</span>
             <p>
-              Terraform | Jenkins | Azure |
+              APPD | Shell Scripting | Paython |
               Monitoring | PCI-DSS Platform
             </p>
           </div>

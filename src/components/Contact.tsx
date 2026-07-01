@@ -28,7 +28,7 @@ function Contact() {
         <div className="contact-card">
           <h3>💼 LinkedIn</h3>
           <a
-            href="https://www.linkedin.com/in/manoj-kumar-737-alt"
+            href="https://www.linkedin.com/in/manojkumar030592/"
             target="_blank"
             rel="noopener noreferrer"
           >
